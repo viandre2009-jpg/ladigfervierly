@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./v1.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Vierly Herrera</h1>
+            <p class="profile-summary">
+                Soy una joven alegre, creativa y con un gran sueño: estudiar medicina. Me apasiona aprender y usar mi creatividad para editar videos y crear contenidos únicos. Disfruto mucho compartir con mi gente y siempre estoy buscando nuevas experiencias que me reten a crecer, tanto personal como profesionalmente.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:viandre2009@gmail.com">viandre2009@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573112161975" target="_blank" rel="noopener noreferrer">+57 3112161975</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Cursando bachillerato | CASD</h4>
+                    <p>Especializandome en promocion de la salud | Año de Finalización: 2025</p>
+                    Descripcion:Promoción en Salud es estudiar cómo prevenir enfermedades y enseñar hábitos que mejoren la vida de las personas y de la comunidad.</P>
+                </li>
+                <li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Venta de frsas con crema | cinarroll</h4>
+                    <p>Mayo 2025 - Julio 2025 <br>Descripción:Vendí fresas con crema como parte de un pequeño emprendimiento, me encargaba de preparar el postre con fresas frescas y crema de calidad, cuidando la presentación y el sabor para que cada cliente disfrutara de una experiencia dulce y agradable.</p>
+                </li>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Habilidades artísticas</li>
+                    <li>Edición de videos (manejo de CapCut, InShot)</li>
+                    <li>manejo de escenarios y publicidad</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo con personas</li>
+                    <li>Sociabilidad</li>
+                    <li>Adaptabilidad</li>
+                    <li>Aprendizaje Rápido</li>
+                    <li>Atención al detalle</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./v2.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.instagram.com/vierlybeltran?igsh=aTlkcnV2cmVrYWN6" target="_blank" class="linktree-link"><strong>INSTAGRAM</strong></a>
+            <a href="https://www.facebook.com/share/1ApGq81a3o/" target="_blank" class="linktree-link"><strong>FACEBOOK</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Vierly Herrera <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
